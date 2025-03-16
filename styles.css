@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+#navbar{
+padding: 20px;
+    background-color:rgb(61, 141, 122);
+}
+a{
+    margin-right: 160px;
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-left: 20PX;
+}
+button{
+    padding: 6px 12px 6px 12px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: serif;
+}
+.first-div{
+    background-color: rgb(179, 216, 168);
+    padding: 50px 140px 50px 140px;
+    align-items: center;
+    text-align: center;
+}
+#main{
+    background-color: rgb(179, 216, 168);
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+.first .second {
+    background-color: white(135, 56, 56);
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+}
+    
+
+
