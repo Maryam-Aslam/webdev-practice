@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    border: 2px solid orangered;
+    background-image:url('pexels-life-of-pix-7974.jpg');
+    display: flex;
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    gap: 20PX;
+    /* flex-wrap: wrap; */
+
+}
+.box1, .box2, .box3, .box4, .box5{
+    width: 200px;
+    height: 200px;
+}
+.box1,  .box3,  .box5{
+    background-color: aquamarine;
+}
+.box2, .box4{
+    background-color: bisque;
+}
+.box1{
+    overflow: auto;
+    padding: 5px;
+}
+.list{
+    background-color: black;
+    
+}
+ul{
+    list-style-type:square;
+    color: white;
+    list-style-position: inside;
+    list-style-image: url(Black___Blue_Minimalist_Modern_Initial_Font_Logo__1_-removebg-preview-e1736684541169.png);
+
+}
