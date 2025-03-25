@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      position: relative;
+    }
+    .loading {
+      margin: 300px;
+      display: flex;
+      height: 150px;
+      width: 150px;
+      border: 5px solid cyan;
+      border-radius: 3px;
+      box-shadow: 0 0 8px cyan, 0 0 8px cyan inset;
+      animation: loading 2s ease-in infinite;
+
+
+    }
+
+    @keyframes loading {
+      0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+      }
+
+      33% {
+        transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg)
+      }
+
+      67% {
+        transform: rotateX18(180deg) rotateY(180deg) rotateZ(0deg)
+      }
+
+      100% {
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg)
+      }
+    }
+
+    .box {
+      margin: 300px;
+      height: 400px;
+      width: 400px;
+      background-color: red;
+      display: flex;
+
+      animation-name: example;
+      animation-duration: 2s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      /* animation animation-iteration-count: infinite; */
+      animation-direction: alternate;
+      animation-fill-mode: both;
+      animation-play-state: running;
+      /* animation: example 2s ease iteration-count direction fill-mode; */
+      animation: example 2s infinite altering timing-function delay iteration-count direction fill-mode;
+    }
+
+    .box:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes example {
+      from {
+        transform: translateY(0px) rotate(0deg);
+
+      }
+
+      to {
+        transform: translateY(100px) rotate(135deg);
+
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box"></div>
+  <div class="loading"></div>
+</body>
+
+</html>

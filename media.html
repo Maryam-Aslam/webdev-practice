@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        h1 {
+            font-size: 50px;
+            padding: 20px 15px;
+            background-color: rgb(202, 159, 243);
+        }
+
+        .container {
+            background-color: rgb(144, 36, 245);
+            min-height: 100vh;
+            padding: 30px;
+        }
+
+        .section1 {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 40px 0;
+        }
+
+        .box {
+            height: 450px;
+            width: 600px;
+            background-color: rgb(202, 159, 243);
+        }
+
+        .section2 {
+            background-color: rgb(202, 159, 243);
+            padding: 30px;
+        }
+
+        .section2 p {
+            font-size: 20px;
+        }
+
+        @media (max-width:480px) {
+            .section1 {
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 25px;
+                text-align: center;
+                padding: 20px 5px;
+            }
+
+            .box {
+                height: 250px;
+                width: 85%;
+                margin: 10px;
+            }
+
+            p {
+                text-align: justify;
+                font-size: 16px;
+            }
+        }
+
+
+
+        @media (min-width:481px) and (max-width:768px) {
+            .container {
+                background-color: rgb(131, 5, 76);
+            }
+
+            h1 {
+                background-color: rgb(172, 71, 143);
+                text-align: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 35px;
+            }
+
+            .box {
+                background-color: rgb(172, 71, 143);
+                height: 300px;
+                margin: 10px;
+            }
+
+            .section2 {
+                background-color: rgb(172, 71, 143);
+
+            }
+
+            p {
+                text-align: justify;
+                font-size: 18px;
+            }
+        }
+
+
+        @media (min-width:769px) and (max-width:1024px) {
+            .container {
+                background-color: rgb(38, 8, 210);
+            }
+
+            h1 {
+                background-color: rgb(19, 138, 189);
+                text-align: center;
+
+            }
+
+            .box {
+                background-color: rgb(19, 138, 189);
+                height: 350px;
+                margin: 40px;
+            }
+
+            .section2 {
+                background-color: rgb(19, 138, 189);
+
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+
+        @media (min-width:1025px) and (max-width:1300px) {
+            .container {
+                background-color: rgb(89, 9, 9);
+            }
+
+            h1 {
+                background-color: bisque;
+                font-style: oblique;
+            }
+
+            .box {
+                background-color: bisque;
+                margin: 40px;
+            }
+
+            .section2 {
+                background-color: bisque;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Media Query Practice</h1>
+        <div class="section1">
+            <div class="box1 box"></div>
+            <div class="box2 box"></div>
+        </div>
+        <div class="section2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem officia reiciendis, quo neque, veniam
+                voluptas blanditiis deserunt illum similique dolorem consequuntur cumque voluptatum quidem. Nesciunt,
+                aperiam. Aut enim quis nisi?
+                Nulla quibusdam aperiam laboriosam, dolore nemo architecto nam deleniti expedita, dignissimos iste,
+                possimus aliquid consequuntur laudantium? Similique in culpa dolores deserunt adipisci aliquid cum sequi
+                laboriosam vel, voluptate tenetur excepturi?
+                Necessitatibus veniam beatae nisi similique qui temporibus dolorum exercitationem officia architecto
+                consectetur maxime quae, unde dicta velit dolorem sunt magnam tempore animi possimus. Maiores, vel!
+                Tempora corrupti ullam laborum eius!
+                Ratione error ipsa similique asperiores mollitia nesciunt fugiat delectus, illo numquam autem nisi,
+                harum quaerat ipsum saepe suscipit eveniet eius, atque expedita minima itaque explicabo. Possimus
+                dignissimos sequi neque suscipit.
+                Harum cumque est culpa aliquam alias eveniet accusantium possimus, animi architecto, atque iure. Aut
+                aliquid similique nobis esse minima quae quas accusantium expedita quo, consectetur, optio quis fuga
+                doloribus. Ipsum.
+                Maiores doloremque ab, mollitia voluptatibus eligendi velit aliquam. Sint quibusdam explicabo ex facilis
+                libero harum quos. Nihil est, iste nisi sed adipisci quisquam quo. Dolorem et dicta natus alias
+                dignissimos!
+                Fugit amet dolorem libero, maiores nesciunt minima explicabo quod qui ea sapiente quaerat similique
+                inventore sunt magnam earum excepturi quos deleniti voluptas eveniet optio, ratione, asperiores
+                voluptatibus laboriosam aliquid! Dicta.
+                Neque iure numquam cumque, tenetur, consectetur rerum adipisci, placeat ea odit quaerat ex? Incidunt
+                repudiandae nobis assumenda et eum expedita error non amet obcaecati ut recusandae, eius sunt quidem
+                est.
+                Molestias, doloribus aut. Deserunt sapiente animi eveniet distinctio voluptas cumque corrupti dolorum
+                consequuntur atque, accusamus, saepe natus quaerat repellat nostrum optio architecto libero sunt et,
+                esse assumenda aut ut perspiciatis!
+                Rem, voluptatibus? Optio necessitatibus vero rem hic quis laudantium cum accusamus, similique non autem
+                repellendus odit nostrum temporibus? Quidem atque iure vitae. Atque provident facilis velit, quas sint
+                ipsa mollitia!
+                Quidem ipsum harum saepe! Exercitationem consequatur accusantium magni debitis laborum repudiandae,
+                voluptates dolor aliquam autem modi recusandae doloremque iure rem corporis quos cumque? Eveniet
+                inventore quaerat pariatur dolore veritatis placeat!
+                Dolor unde possimus rem assumenda maiores delectus at voluptate iste aperiam rerum tempora saepe iusto
+                recusandae minima consequuntur voluptatem, natus quos voluptatibus quisquam obcaecati, corporis neque
+                amet ea ad! Rem.
+                Ea qui mollitia vitae reiciendis illo perferendis veniam consequuntur odit repellat nemo. Doloremque
+                ipsum dolore deserunt in ducimus iusto eveniet et corporis numquam molestiae, obcaecati dolores dicta
+                odit cum sint.
+                Adipisci ad alias tempora aut reprehenderit rerum, ipsam, ratione fugit, assumenda debitis repellendus!
+                Quibusdam fugiat, alias libero consequuntur optio commodi eligendi nulla qui, quisquam dicta vitae ab,
+                saepe provident molestias.
+                Fugit quisquam eveniet excepturi recusandae expedita maxime molestias, nemo quas alias hic ex, facere,
+                quo consequatur doloribus vitae odio quae aut earum iusto ea tenetur sit ab nobis! Temporibus, ad?</p>
+        </div>
+    </div>
+</body>
+
+</html>
