@@ -17,7 +17,18 @@
     font-size: 30px;
     text-align: center;
    
-   
+    .main{
+        border: 2px solid black;
+    }
+    #box1{
+        background-color:rgb(187, 236, 219);
+        height: 350px;
+        width: 100%;
+        padding: 30px 0PX;
+        font-family: Impact;
+        font-size: 30px;
+        text-align: center;
+       
 }
 #box2{
     background-color: rgb(88, 186, 164);
