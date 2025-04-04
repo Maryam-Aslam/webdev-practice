@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+    
+        /* section5 main box */
+        .section5 {
+            width: 100%;
+            display: flex;
+            height: auto;
+            gap: 2em;
+            padding: 2rem 13%;
+        }
+    
+        /* box 1 images box */
+        .box1 {
+            width: 13%;
+        }
+    
+        .box1 img {
+            width: 100%;
+            transition: all 0.3s ease-in-out;
+
+        }
+        .box1 img:hover{
+            transform: scale(1.1);
+
+
+        
+        }
+    
+        .box2 {
+            width: 19%;
+    
+        }
+    
+        .long-content {
+            background-color: #E9EFF7;
+            padding: 2rem;
+            border-radius: 0.5em;
+            width: 100%;
+    
+        }
+    
+        .content1 {
+            font-size: 0.9em;
+            padding: 1em 0em;
+        }
+    
+        .content2 {
+            font-size: 1.5em;
+            padding-top: 0.4em;
+        }
+    
+        .content3 {
+            font-size: 0.7em;
+            padding: 0em 0em;
+        }
+    
+        .content4 {
+            font-size: 1em;
+            padding: 1em 0em;
+        }
+    
+        #img-n-heading {
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 0.5em;
+            justify-content: space-between;
+            padding-bottom: 2em;
+    
+        }
+    
+        .shortimg {
+            width: 30%;
+            height: auto;
+            background-color: #e8e8e8;
+            padding: 0;
+        }
+    
+        .short-span {
+            width: 70%;
+            font-size: 1em;
+            color: grey;
+            font-weight: 600;
+        }
+    
+        .long-content .pera {
+            padding-top: 0.8em;
+            font-size: 0.9em;
+            color: #4a4a4a;
+        }
+    
+        .sec5btn {
+            width: 100%;
+            height: auto;
+            padding: 1rem 0rem;
+    
+    
+        }
+    
+        .sec5btn .btn {
+            background-color: #FF7900;
+            font-size: 1em;
+            padding: 1em 1.6em;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.2em;
+            border-radius: 0.4em;
+            border: none;
+            text-align: center;
+        }
+    
+        .sec5icon {
+            fill: white;
+            height: 1.5em;
+            width: 2em;
+        }
+    
+        .box3 {
+            width: 50%;
+            height: auto;
+            padding: 2em;            
+           
+        }
+        .top{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            gap: 2em;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1em;
+          
+    
+        }
+        .top-one{
+            width: 33%;
+            height:100%;
+            border: 1px solid rgb(213, 209, 209);
+            border-radius: 0.5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .top-one img{
+     width: 80%;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+
+        }
+        .top-one:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+.box3 .sec5btn .btn {
+    margin: auto;
+}
+.sec5btn .btn:hover {
+    background-color: #F2621E;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="section5">
+
+<!-- box one contain 2 images -->
+        <div class="box1">
+            <img src="https://www.bulksms.com/images/G2-Easiest-Setup-2024.png" alt="">
+            <img src="https://www.bulksms.com/images/G2-Leader-2024.png" alt="">    
+        </div>
+
+        <!-- box 2 contain long content and a seprate button div also include -->
+
+        <div class="box2">
+            <div class="long-content">
+                <p  class="content1 ">Powered by G2</p>
+                <p class="content2 ">BULKSMS.COM</p>
+                <p class="content3 ">Review by Alan B.</p>
+                <img src="https://www.g2.com/assets/riblet/text-dark/stars-10-14efcbbffe73aa5627f9bb56e80ba16cbc3525ddd2effa8a3188b411b9bb2d50.svg"
+                    alt="">
+                <p class="content4 ">2023-03-10</p>
+                <!-- in box 2 there r 2 div long-content and indide its a div img-n-heading -->
+                <div id="img-n-heading">
+                    <div class="shortimg"><img src="https://images.g2crowd.com/uploads/product/image/thumb/thumb_88e28faa2f54db7deb40d4ba9427dfe1/bulksms.png"alt=""></div>
+                    <div class="short-span"><span>Reliable service by a reactive team</span></div>
+                </div>
+                <p class="pera">Queries have been addressed quickly and efficiently and they have been proactive on topics that I
+                    raised. The service is reliable, and the abili.</p>
+            </div>
+            
+            <!-- 2nd div of button inside the box2 -->
+            <div class="sec5btn">
+                <button class="btn">Register your account on G2<svg class="sec5icon" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                    </svg></button> </div>
+            </div>
+
+            <!-- box 3 contain 2 divs one for imges and one for seprate button -->
+
+            <div class="box3">
+                <!-- div one contain two dives top and bottom -->
+                
+                    <div class="top">
+                        <div class="top-one"><img class="hover-effect" src="https://www.bulksms.com/images/resources/case-study/home-fly-sa-fair.png" alt="FlySafair">
+                        </div>
+                        <div class="top-one"><img class="hover-effect" src="https://www.bulksms.com/images/resources/case-study/home-cts-logo.png" alt="FlySafair">
+                        </div>
+                        <div class="top-one"><img class="hover-effect" src="https://www.bulksms.com/images/resources/case-study/home-santa.png" alt="FlySafair">
+                        </div>
+                    </div>
+                    <div class="top">
+                        <div class="top-one"><img class="hover-effect" src="https://www.bulksms.com/images/resources/case-study/home-bee.png" alt="FlySafair">
+                        </div>
+                        <div class="top-one"><img class="hover-effect" src="https://www.bulksms.com/images/resources/case-study/home-sme.png" alt="FlySafair">
+                        </div>
+                        <div class="top-one"><img class="hover-effect" src="https://www.bulksms.com/images/resources/case-study/home-fly-sa-fair.png" alt="FlySafair">
+                        </div>
+                    </div>
+                 <!-- 2nd div of button inside the box2 -->
+            <div class="sec5btn">
+                <button class="btn">Register your account on G2<svg class="sec5icon" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                    </svg></button> </div>
+                
+               
+
+            </div>
+
+    </div>
+</body>
+</html>
